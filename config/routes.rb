@@ -12,6 +12,10 @@ Propertymanagement::Application.routes.draw do
   resources :properties
   
   root 'users#index'
+  
+  get "login", :to => "user_sessions#new"
+  
+  get "logout", :to => "user_sessions#destroy"
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

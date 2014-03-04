@@ -1,4 +1,4 @@
-1393899901
+1393903751
 Application	C:/Users/Anthony/Desktop/436/propertymanagement/config/application.rb	  class Application 
 ApplicationController	C:/Users/Anthony/Desktop/436/propertymanagement/app/controllers/application_controller.rb	class ApplicationController 
 ApplicationHelper	C:/Users/Anthony/Desktop/436/propertymanagement/app/helpers/application_helper.rb	module ApplicationHelper
@@ -54,14 +54,16 @@ create	C:/Users/Anthony/Desktop/436/propertymanagement/app/controllers/units_con
 create	C:/Users/Anthony/Desktop/436/propertymanagement/app/controllers/repair_requests_controller.rb	  def create
 create	C:/Users/Anthony/Desktop/436/propertymanagement/app/controllers/properties_controller.rb	  def create
 create	C:/Users/Anthony/Desktop/436/propertymanagement/app/controllers/leases_controller.rb	  def create
-create	C:/Users/Anthony/Desktop/436/propertymanagement/app/controllers/users_controller.rb	  def create
 create	C:/Users/Anthony/Desktop/436/propertymanagement/app/controllers/user_sessions_controller.rb	  def create
+create	C:/Users/Anthony/Desktop/436/propertymanagement/app/controllers/users_controller.rb	  def create
+current_user	C:/Users/Anthony/Desktop/436/propertymanagement/app/controllers/application_controller.rb	  def current_user
+current_user_session	C:/Users/Anthony/Desktop/436/propertymanagement/app/controllers/application_controller.rb	  def current_user_session
 destroy	C:/Users/Anthony/Desktop/436/propertymanagement/app/controllers/units_controller.rb	  def destroy
 destroy	C:/Users/Anthony/Desktop/436/propertymanagement/app/controllers/repair_requests_controller.rb	  def destroy
 destroy	C:/Users/Anthony/Desktop/436/propertymanagement/app/controllers/properties_controller.rb	  def destroy
 destroy	C:/Users/Anthony/Desktop/436/propertymanagement/app/controllers/leases_controller.rb	  def destroy
-destroy	C:/Users/Anthony/Desktop/436/propertymanagement/app/controllers/users_controller.rb	  def destroy
 destroy	C:/Users/Anthony/Desktop/436/propertymanagement/app/controllers/user_sessions_controller.rb	  def destroy
+destroy	C:/Users/Anthony/Desktop/436/propertymanagement/app/controllers/users_controller.rb	  def destroy
 edit	C:/Users/Anthony/Desktop/436/propertymanagement/app/controllers/units_controller.rb	  def edit
 edit	C:/Users/Anthony/Desktop/436/propertymanagement/app/controllers/repair_requests_controller.rb	  def edit
 edit	C:/Users/Anthony/Desktop/436/propertymanagement/app/controllers/properties_controller.rb	  def edit
@@ -77,8 +79,8 @@ new	C:/Users/Anthony/Desktop/436/propertymanagement/app/controllers/units_contro
 new	C:/Users/Anthony/Desktop/436/propertymanagement/app/controllers/repair_requests_controller.rb	  def new
 new	C:/Users/Anthony/Desktop/436/propertymanagement/app/controllers/properties_controller.rb	  def new
 new	C:/Users/Anthony/Desktop/436/propertymanagement/app/controllers/leases_controller.rb	  def new
-new	C:/Users/Anthony/Desktop/436/propertymanagement/app/controllers/users_controller.rb	  def new
 new	C:/Users/Anthony/Desktop/436/propertymanagement/app/controllers/user_sessions_controller.rb	  def new
+new	C:/Users/Anthony/Desktop/436/propertymanagement/app/controllers/users_controller.rb	  def new
 property_params	C:/Users/Anthony/Desktop/436/propertymanagement/app/controllers/properties_controller.rb	    def property_params
 repair_request_params	C:/Users/Anthony/Desktop/436/propertymanagement/app/controllers/repair_requests_controller.rb	    def repair_request_params
 set_lease	C:/Users/Anthony/Desktop/436/propertymanagement/app/controllers/leases_controller.rb	    def set_lease
