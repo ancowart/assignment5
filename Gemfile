@@ -46,3 +46,6 @@ end
 
 # Add authlogic
 gem 'authlogic'
+
+#add scrypt
+gem 'scrypt'

@@ -1,7 +1,7 @@
 Propertymanagement::Application.routes.draw do
-  resources :repair_requests
-
   resources :users
+
+  resources :repair_requests
 
   resources :leases
 

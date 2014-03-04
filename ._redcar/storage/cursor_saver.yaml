@@ -1,8 +1,5 @@
 --- 
 cursor_positions: 
-  - :path: app/controllers/users_controller.rb
-    :cursor_offset: 1418
-    :timestamp: 2014-03-03 19:00:51.492000 -05:00
   - :path: app/models/property.rb
     :cursor_offset: 53
     :timestamp: 2014-03-03 19:05:19.319000 -05:00
@@ -15,7 +12,40 @@ cursor_positions:
   - :path: app/models/repair_request.rb
     :cursor_offset: 194
     :timestamp: 2014-03-03 19:07:39.609000 -05:00
+  - :path: db/migrate/20140304000134_create_repair_requests.rb
+    :cursor_offset: 0
+    :timestamp: 2014-03-03 19:01:34.852000 -05:00
+  - :path: db/migrate/20140304000051_create_users.rb
+    :cursor_offset: 251
+    :timestamp: 2014-03-03 19:13:08.744000 -05:00
+  - :path: db/migrate/20140304001833_create_users.rb
+    :cursor_offset: 269
+    :timestamp: 2014-03-03 19:20:05.083000 -05:00
+  - :path: Gemfile.lock
+    :cursor_offset: 0
+    :timestamp: 2014-03-03 19:48:56.970000 -05:00
+  - :path: config/environments/development.rb
+    :cursor_offset: 432
+    :timestamp: 2014-03-03 02:08:39 -05:00
+  - :path: config/environments/test.rb
+    :cursor_offset: 0
+    :timestamp: 2014-03-03 02:08:39 -05:00
   - :path: app/models/user.rb
-    :cursor_offset: 51
-    :timestamp: 2014-03-03 19:09:12.470000 -05:00
+    :cursor_offset: 56
+    :timestamp: 2014-03-03 19:54:45.835000 -05:00
+  - :path: Gemfile
+    :cursor_offset: 398
+    :timestamp: 2014-03-03 02:08:39 -05:00
+  - :path: app/controllers/units_controller.rb
+    :cursor_offset: 0
+    :timestamp: 2014-03-03 18:59:48.718000 -05:00
+  - :path: app/views/users/new.html.erb
+    :cursor_offset: 0
+    :timestamp: 2014-03-03 19:18:33.881000 -05:00
+  - :path: app/controllers/users_controller.rb
+    :cursor_offset: 1733
+    :timestamp: 2014-03-03 19:51:42.117000 -05:00
+  - :path: app/views/users/_form.html.erb
+    :cursor_offset: 749
+    :timestamp: 2014-03-03 19:22:41.286000 -05:00
 files_to_retain: 0
