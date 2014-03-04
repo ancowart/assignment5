@@ -1,0 +1,6 @@
+--- 
+cursor_positions: 
+  - :path: app/controllers/users_controller.rb
+    :cursor_offset: 1418
+    :timestamp: 2014-03-03 19:00:51.492000 -05:00
+files_to_retain: 0

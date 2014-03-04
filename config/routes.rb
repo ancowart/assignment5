@@ -1,4 +1,14 @@
 Propertymanagement::Application.routes.draw do
+  resources :repair_requests
+
+  resources :users
+
+  resources :leases
+
+  resources :units
+
+  resources :properties
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
