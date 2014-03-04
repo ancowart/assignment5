@@ -3,4 +3,19 @@ cursor_positions:
   - :path: app/controllers/users_controller.rb
     :cursor_offset: 1418
     :timestamp: 2014-03-03 19:00:51.492000 -05:00
+  - :path: app/models/property.rb
+    :cursor_offset: 53
+    :timestamp: 2014-03-03 19:05:19.319000 -05:00
+  - :path: app/models/unit.rb
+    :cursor_offset: 73
+    :timestamp: 2014-03-03 19:05:34.539000 -05:00
+  - :path: app/models/lease.rb
+    :cursor_offset: 94
+    :timestamp: 2014-03-03 19:05:56.449000 -05:00
+  - :path: app/models/repair_request.rb
+    :cursor_offset: 194
+    :timestamp: 2014-03-03 19:07:39.609000 -05:00
+  - :path: app/models/user.rb
+    :cursor_offset: 51
+    :timestamp: 2014-03-03 19:09:12.470000 -05:00
 files_to_retain: 0
