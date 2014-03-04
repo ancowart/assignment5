@@ -1,4 +1,4 @@
-1393897225
+1393899901
 Application	C:/Users/Anthony/Desktop/436/propertymanagement/config/application.rb	  class Application 
 ApplicationController	C:/Users/Anthony/Desktop/436/propertymanagement/app/controllers/application_controller.rb	class ApplicationController 
 ApplicationHelper	C:/Users/Anthony/Desktop/436/propertymanagement/app/helpers/application_helper.rb	module ApplicationHelper
@@ -34,6 +34,12 @@ UnitsControllerTest	C:/Users/Anthony/Desktop/436/propertymanagement/test/control
 UnitsHelper	C:/Users/Anthony/Desktop/436/propertymanagement/app/helpers/units_helper.rb	module UnitsHelper
 UnitsHelperTest	C:/Users/Anthony/Desktop/436/propertymanagement/test/helpers/units_helper_test.rb	class UnitsHelperTest 
 User	C:/Users/Anthony/Desktop/436/propertymanagement/app/models/user.rb	class User 
+UserSession	C:/Users/Anthony/Desktop/436/propertymanagement/app/models/user_session.rb	class UserSession 
+UserSessionTest	C:/Users/Anthony/Desktop/436/propertymanagement/test/models/user_session_test.rb	class UserSessionTest 
+UserSessionsController	C:/Users/Anthony/Desktop/436/propertymanagement/app/controllers/user_sessions_controller.rb	class UserSessionsController 
+UserSessionsControllerTest	C:/Users/Anthony/Desktop/436/propertymanagement/test/controllers/user_sessions_controller_test.rb	class UserSessionsControllerTest 
+UserSessionsHelper	C:/Users/Anthony/Desktop/436/propertymanagement/app/helpers/user_sessions_helper.rb	module UserSessionsHelper
+UserSessionsHelperTest	C:/Users/Anthony/Desktop/436/propertymanagement/test/helpers/user_sessions_helper_test.rb	class UserSessionsHelperTest 
 UserTest	C:/Users/Anthony/Desktop/436/propertymanagement/test/models/user_test.rb	class UserTest 
 UsersController	C:/Users/Anthony/Desktop/436/propertymanagement/app/controllers/users_controller.rb	class UsersController 
 UsersControllerTest	C:/Users/Anthony/Desktop/436/propertymanagement/test/controllers/users_controller_test.rb	class UsersControllerTest 
@@ -49,11 +55,13 @@ create	C:/Users/Anthony/Desktop/436/propertymanagement/app/controllers/repair_re
 create	C:/Users/Anthony/Desktop/436/propertymanagement/app/controllers/properties_controller.rb	  def create
 create	C:/Users/Anthony/Desktop/436/propertymanagement/app/controllers/leases_controller.rb	  def create
 create	C:/Users/Anthony/Desktop/436/propertymanagement/app/controllers/users_controller.rb	  def create
+create	C:/Users/Anthony/Desktop/436/propertymanagement/app/controllers/user_sessions_controller.rb	  def create
 destroy	C:/Users/Anthony/Desktop/436/propertymanagement/app/controllers/units_controller.rb	  def destroy
 destroy	C:/Users/Anthony/Desktop/436/propertymanagement/app/controllers/repair_requests_controller.rb	  def destroy
 destroy	C:/Users/Anthony/Desktop/436/propertymanagement/app/controllers/properties_controller.rb	  def destroy
 destroy	C:/Users/Anthony/Desktop/436/propertymanagement/app/controllers/leases_controller.rb	  def destroy
 destroy	C:/Users/Anthony/Desktop/436/propertymanagement/app/controllers/users_controller.rb	  def destroy
+destroy	C:/Users/Anthony/Desktop/436/propertymanagement/app/controllers/user_sessions_controller.rb	  def destroy
 edit	C:/Users/Anthony/Desktop/436/propertymanagement/app/controllers/units_controller.rb	  def edit
 edit	C:/Users/Anthony/Desktop/436/propertymanagement/app/controllers/repair_requests_controller.rb	  def edit
 edit	C:/Users/Anthony/Desktop/436/propertymanagement/app/controllers/properties_controller.rb	  def edit
@@ -70,6 +78,7 @@ new	C:/Users/Anthony/Desktop/436/propertymanagement/app/controllers/repair_reque
 new	C:/Users/Anthony/Desktop/436/propertymanagement/app/controllers/properties_controller.rb	  def new
 new	C:/Users/Anthony/Desktop/436/propertymanagement/app/controllers/leases_controller.rb	  def new
 new	C:/Users/Anthony/Desktop/436/propertymanagement/app/controllers/users_controller.rb	  def new
+new	C:/Users/Anthony/Desktop/436/propertymanagement/app/controllers/user_sessions_controller.rb	  def new
 property_params	C:/Users/Anthony/Desktop/436/propertymanagement/app/controllers/properties_controller.rb	    def property_params
 repair_request_params	C:/Users/Anthony/Desktop/436/propertymanagement/app/controllers/repair_requests_controller.rb	    def repair_request_params
 set_lease	C:/Users/Anthony/Desktop/436/propertymanagement/app/controllers/leases_controller.rb	    def set_lease
@@ -77,6 +86,7 @@ set_property	C:/Users/Anthony/Desktop/436/propertymanagement/app/controllers/pro
 set_repair_request	C:/Users/Anthony/Desktop/436/propertymanagement/app/controllers/repair_requests_controller.rb	    def set_repair_request
 set_unit	C:/Users/Anthony/Desktop/436/propertymanagement/app/controllers/units_controller.rb	    def set_unit
 set_user	C:/Users/Anthony/Desktop/436/propertymanagement/app/controllers/users_controller.rb	    def set_user
+set_user_session	C:/Users/Anthony/Desktop/436/propertymanagement/app/controllers/user_sessions_controller.rb	    def set_user_session
 show	C:/Users/Anthony/Desktop/436/propertymanagement/app/controllers/units_controller.rb	  def show
 show	C:/Users/Anthony/Desktop/436/propertymanagement/app/controllers/repair_requests_controller.rb	  def show
 show	C:/Users/Anthony/Desktop/436/propertymanagement/app/controllers/properties_controller.rb	  def show
@@ -89,3 +99,4 @@ update	C:/Users/Anthony/Desktop/436/propertymanagement/app/controllers/propertie
 update	C:/Users/Anthony/Desktop/436/propertymanagement/app/controllers/leases_controller.rb	  def update
 update	C:/Users/Anthony/Desktop/436/propertymanagement/app/controllers/users_controller.rb	  def update
 user_params	C:/Users/Anthony/Desktop/436/propertymanagement/app/controllers/users_controller.rb	    def user_params
+user_session_params	C:/Users/Anthony/Desktop/436/propertymanagement/app/controllers/user_sessions_controller.rb	    def user_session_params
