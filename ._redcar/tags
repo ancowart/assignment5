@@ -1,10 +1,13 @@
-1394415313
+1394418109
+Ability	C:/Users/Anthony/Desktop/436/propertymanagement/app/models/ability.rb	class Ability 
 Application	C:/Users/Anthony/Desktop/436/propertymanagement/config/application.rb	  class Application 
 ApplicationController	C:/Users/Anthony/Desktop/436/propertymanagement/app/controllers/application_controller.rb	class ApplicationController 
 ApplicationHelper	C:/Users/Anthony/Desktop/436/propertymanagement/app/helpers/application_helper.rb	module ApplicationHelper
 CreateLeases	C:/Users/Anthony/Desktop/436/propertymanagement/db/migrate/20140304000012_create_leases.rb	class CreateLeases 
 CreateProperties	C:/Users/Anthony/Desktop/436/propertymanagement/db/migrate/20140303235910_create_properties.rb	class CreateProperties 
 CreateRepairRequests	C:/Users/Anthony/Desktop/436/propertymanagement/db/migrate/20140304000134_create_repair_requests.rb	class CreateRepairRequests 
+CreateRoles	C:/Users/Anthony/Desktop/436/propertymanagement/db/migrate/20140310013843_create_roles.rb	class CreateRoles 
+CreateRolesUsers	C:/Users/Anthony/Desktop/436/propertymanagement/db/migrate/20140310014414_create_roles_users.rb	class CreateRolesUsers 
 CreateUnits	C:/Users/Anthony/Desktop/436/propertymanagement/db/migrate/20140303235948_create_units.rb	class CreateUnits 
 CreateUsers	C:/Users/Anthony/Desktop/436/propertymanagement/db/migrate/20140304001833_create_users.rb	class CreateUsers 
 Lease	C:/Users/Anthony/Desktop/436/propertymanagement/app/models/lease.rb	class Lease 
@@ -26,6 +29,8 @@ RepairRequestsController	C:/Users/Anthony/Desktop/436/propertymanagement/app/con
 RepairRequestsControllerTest	C:/Users/Anthony/Desktop/436/propertymanagement/test/controllers/repair_requests_controller_test.rb	class RepairRequestsControllerTest 
 RepairRequestsHelper	C:/Users/Anthony/Desktop/436/propertymanagement/app/helpers/repair_requests_helper.rb	module RepairRequestsHelper
 RepairRequestsHelperTest	C:/Users/Anthony/Desktop/436/propertymanagement/test/helpers/repair_requests_helper_test.rb	class RepairRequestsHelperTest 
+Role	C:/Users/Anthony/Desktop/436/propertymanagement/app/models/role.rb	class Role 
+RoleTest	C:/Users/Anthony/Desktop/436/propertymanagement/test/models/role_test.rb	class RoleTest 
 TestCase	C:/Users/Anthony/Desktop/436/propertymanagement/test/test_helper.rb	class ActiveSupport::TestCase
 Unit	C:/Users/Anthony/Desktop/436/propertymanagement/app/models/unit.rb	class Unit 
 UnitTest	C:/Users/Anthony/Desktop/436/propertymanagement/test/models/unit_test.rb	class UnitTest 
@@ -50,6 +55,8 @@ change	C:/Users/Anthony/Desktop/436/propertymanagement/db/migrate/20140304000012
 change	C:/Users/Anthony/Desktop/436/propertymanagement/db/migrate/20140303235948_create_units.rb	  def change
 change	C:/Users/Anthony/Desktop/436/propertymanagement/db/migrate/20140303235910_create_properties.rb	  def change
 change	C:/Users/Anthony/Desktop/436/propertymanagement/db/migrate/20140304001833_create_users.rb	  def change
+change	C:/Users/Anthony/Desktop/436/propertymanagement/db/migrate/20140310013843_create_roles.rb	  def change
+change	C:/Users/Anthony/Desktop/436/propertymanagement/db/migrate/20140310014414_create_roles_users.rb	  def change
 create	C:/Users/Anthony/Desktop/436/propertymanagement/app/controllers/units_controller.rb	  def create
 create	C:/Users/Anthony/Desktop/436/propertymanagement/app/controllers/repair_requests_controller.rb	  def create
 create	C:/Users/Anthony/Desktop/436/propertymanagement/app/controllers/properties_controller.rb	  def create
@@ -69,11 +76,13 @@ edit	C:/Users/Anthony/Desktop/436/propertymanagement/app/controllers/repair_requ
 edit	C:/Users/Anthony/Desktop/436/propertymanagement/app/controllers/properties_controller.rb	  def edit
 edit	C:/Users/Anthony/Desktop/436/propertymanagement/app/controllers/leases_controller.rb	  def edit
 edit	C:/Users/Anthony/Desktop/436/propertymanagement/app/controllers/users_controller.rb	  def edit
+has_role?	C:/Users/Anthony/Desktop/436/propertymanagement/app/models/user.rb	  def has_role?(role_sym)
 index	C:/Users/Anthony/Desktop/436/propertymanagement/app/controllers/units_controller.rb	  def index
 index	C:/Users/Anthony/Desktop/436/propertymanagement/app/controllers/repair_requests_controller.rb	  def index
 index	C:/Users/Anthony/Desktop/436/propertymanagement/app/controllers/properties_controller.rb	  def index
 index	C:/Users/Anthony/Desktop/436/propertymanagement/app/controllers/leases_controller.rb	  def index
 index	C:/Users/Anthony/Desktop/436/propertymanagement/app/controllers/users_controller.rb	  def index
+initialize	C:/Users/Anthony/Desktop/436/propertymanagement/app/models/ability.rb	  def initialize(thisuser)
 lease_params	C:/Users/Anthony/Desktop/436/propertymanagement/app/controllers/leases_controller.rb	    def lease_params
 new	C:/Users/Anthony/Desktop/436/propertymanagement/app/controllers/units_controller.rb	  def new
 new	C:/Users/Anthony/Desktop/436/propertymanagement/app/controllers/repair_requests_controller.rb	  def new
