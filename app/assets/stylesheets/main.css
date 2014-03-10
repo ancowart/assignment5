@@ -82,3 +82,9 @@
 	padding: 20px;
 	height: 1%;
 }
+
+#error
+{  
+  color:red;
+  font-size: 18px;
+}

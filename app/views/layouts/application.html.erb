@@ -19,6 +19,9 @@
       <h2>
         <%= yield :title %>
       </h2>
+      <p id="error">
+        <%= flash[:error] %>
+      </p>
       <p>
         <%= yield %>
       </p>

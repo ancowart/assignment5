@@ -12,6 +12,7 @@ class Ability
       can :manage, thisuser
     else
       can :index, :all
+      can :create, :all
     end
   end
   
