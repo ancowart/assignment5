@@ -74,9 +74,6 @@ cursor_positions:
   - :path: config/routes.rb
     :cursor_offset: 870
     :timestamp: 2014-03-03 22:08:07.098000 -05:00
-  - :path: app/views/layouts/application.html.erb
-    :cursor_offset: 396
-    :timestamp: 2014-03-03 22:17:50.006000 -05:00
   - :path: app/views/shared/_navigation.html.erb
     :cursor_offset: 362
     :timestamp: 2014-03-03 22:25:27.843000 -05:00
@@ -90,18 +87,21 @@ cursor_positions:
     :cursor_offset: 67
     :timestamp: 2014-03-09 21:43:11.776000 -04:00
   - :path: db/migrate/20140310014414_create_roles_users.rb
-    :cursor_offset: 181
-    :timestamp: 2014-03-09 21:45:04.549000 -04:00
+    :cursor_offset: 176
+    :timestamp: 2014-03-10 00:50:08.556000 -04:00
+  - :path: app/views/layouts/application.html.erb
+    :cursor_offset: 316
+    :timestamp: 2014-03-10 00:50:08.394000 -04:00
   - :path: app/views/users/_form.html.erb
-    :cursor_offset: 358
-    :timestamp: 2014-03-09 22:04:42.660000 -04:00
-  - :path: app/controllers/users_controller.rb
-    :cursor_offset: 820
-    :timestamp: 2014-03-09 22:07:44.768000 -04:00
+    :cursor_offset: 698
+    :timestamp: 2014-03-10 00:50:08.493000 -04:00
   - :path: app/models/user.rb
     :cursor_offset: 213
-    :timestamp: 2014-03-09 22:12:02.679000 -04:00
+    :timestamp: 2014-03-10 00:50:08.388000 -04:00
   - :path: app/models/ability.rb
-    :cursor_offset: 113
-    :timestamp: 2014-03-09 22:20:30.237000 -04:00
+    :cursor_offset: 213
+    :timestamp: 2014-03-10 02:37:25.553000 -04:00
+  - :path: app/controllers/users_controller.rb
+    :cursor_offset: 293
+    :timestamp: 2014-03-10 02:35:36.804000 -04:00
 files_to_retain: 0
