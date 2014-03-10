@@ -63,9 +63,6 @@ cursor_positions:
   - :path: config/routes.rb
     :cursor_offset: 870
     :timestamp: 2014-03-03 22:08:07.098000 -05:00
-  - :path: app/views/shared/_navigation.html.erb
-    :cursor_offset: 362
-    :timestamp: 2014-03-03 22:25:27.843000 -05:00
   - :path: Gemfile
     :cursor_offset: 1260
     :timestamp: 2014-03-09 20:54:00.014000 -04:00
@@ -84,15 +81,6 @@ cursor_positions:
   - :path: app/controllers/application_controller.rb
     :cursor_offset: 346
     :timestamp: 2014-03-10 19:04:30.593000 -04:00
-  - :path: app/views/layouts/application.html.erb
-    :cursor_offset: 550
-    :timestamp: 2014-03-10 19:06:18.510000 -04:00
-  - :path: app/views/users/index.html.erb
-    :cursor_offset: 586
-    :timestamp: 2014-03-10 19:03:21.149000 -04:00
-  - :path: app/views/users/_form.html.erb
-    :cursor_offset: 878
-    :timestamp: 2014-03-10 19:00:56.659000 -04:00
   - :path: app/models/ability.rb
     :cursor_offset: 286
     :timestamp: 2014-03-10 02:59:46.895000 -04:00
@@ -102,4 +90,16 @@ cursor_positions:
   - :path: app/assets/stylesheets/main.css
     :cursor_offset: 819
     :timestamp: 2014-03-10 19:07:24.813000 -04:00
+  - :path: app/views/users/_form.html.erb
+    :cursor_offset: 517
+    :timestamp: 2014-03-10 19:00:56.659000 -04:00
+  - :path: app/views/layouts/application.html.erb
+    :cursor_offset: 362
+    :timestamp: 2014-03-10 19:06:18.510000 -04:00
+  - :path: app/views/shared/_navigation.html.erb
+    :cursor_offset: 542
+    :timestamp: 2014-03-10 19:19:35.069000 -04:00
+  - :path: app/views/users/index.html.erb
+    :cursor_offset: 236
+    :timestamp: 2014-03-10 19:03:21.149000 -04:00
 files_to_retain: 0
