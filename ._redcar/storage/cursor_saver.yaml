@@ -33,9 +33,6 @@ cursor_positions:
   - :path: app/models/user.rb
     :cursor_offset: 56
     :timestamp: 2014-03-03 19:54:45.835000 -05:00
-  - :path: Gemfile
-    :cursor_offset: 398
-    :timestamp: 2014-03-03 02:08:39 -05:00
   - :path: app/controllers/units_controller.rb
     :cursor_offset: 0
     :timestamp: 2014-03-03 18:59:48.718000 -05:00
@@ -90,9 +87,12 @@ cursor_positions:
     :cursor_offset: 362
     :timestamp: 2014-03-03 22:25:27.843000 -05:00
   - :path: app/controllers/application_controller.rb
-    :cursor_offset: 555
+    :cursor_offset: 0
     :timestamp: 2014-03-03 22:21:16.976000 -05:00
+  - :path: Gemfile
+    :cursor_offset: 1260
+    :timestamp: 2014-03-09 20:54:00.014000 -04:00
   - :path: app/controllers/users_controller.rb
-    :cursor_offset: 1530
-    :timestamp: 2014-03-03 22:27:00.424000 -05:00
+    :cursor_offset: 1199
+    :timestamp: 2014-03-09 21:33:58.156000 -04:00
 files_to_retain: 0

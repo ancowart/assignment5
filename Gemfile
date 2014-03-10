@@ -49,3 +49,6 @@ gem 'authlogic'
 
 #add scrypt
 gem 'scrypt'
+
+#add cancan
+gem 'cancan'
