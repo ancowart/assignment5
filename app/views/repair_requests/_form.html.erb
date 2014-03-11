@@ -14,7 +14,7 @@
   
   <% if current_user %>
 
-  <% if current_user.has_role? :renter %>  
+  <% if current_user.has_role? :renter and current_user.id == @repair_request.submitter_id or @repair_request.submitter_id == nil %>  
   <div class="field">
     <%= f.label :open_date %><br>
     <%= f.date_select :open_date %>
@@ -38,7 +38,7 @@
     </div>  
   <% end %>
   
-  <% if current_user.has_role? :renter %>
+  <% if current_user.has_role? :renter and current_user.id == @repair_request.submitter_id or @repair_request.submitter_id == nil  %> 
   <div class="field">
     <%= f.label :request_details %><br>
     <%= f.text_area :request_details %>
@@ -62,14 +62,6 @@
     </div>  
   <% end %>
   
-  <!--<div class="field">
-    <%= f.label :submitter_id %><br>
-    <%= f.number_field :submitter_id %>
-  </div>
-  <div class="field">
-    <%= f.label :responder_id %><br>
-    <%= f.number_field :responder_id %>
-  </div>-->
   <div class="actions">
     <%= f.submit %>
   </div>

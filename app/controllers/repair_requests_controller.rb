@@ -78,9 +78,12 @@ class RepairRequestsController < ApplicationController
 end
 
 def set_the_user_id
-  if current_user.has_role? :renter
+  if current_user.has_role? :renter  and @repair_request.submitter_id == nil
     @repair_request.submitter_id = current_user.id
-  elsif current_user.has_role? :manager
+  elsif current_user.has_role? :renter
+    @repair_request.submitter_id = current_user.id
+  end
+  if current_user.has_role? :manager and @repair_request.submitter_id != nil
     @repair_request.responder_id = current_user.id
   end
 end
