@@ -25,6 +25,8 @@ class RepairRequestsController < ApplicationController
   # POST /repair_requests.json
   def create
     @repair_request = RepairRequest.new(repair_request_params)
+    
+    set_the_user_id
 
     respond_to do |format|
       if @repair_request.save
@@ -40,6 +42,8 @@ class RepairRequestsController < ApplicationController
   # PATCH/PUT /repair_requests/1
   # PATCH/PUT /repair_requests/1.json
   def update
+    set_the_user_id
+    
     respond_to do |format|
       if @repair_request.update(repair_request_params)
         format.html { redirect_to @repair_request, notice: 'Repair request was successfully updated.' }
@@ -71,4 +75,12 @@ class RepairRequestsController < ApplicationController
     def repair_request_params
       params.require(:repair_request).permit(:open_date, :close_date, :request_details, :request_response, :submitter_id, :responder_id)
     end
+end
+
+def set_the_user_id
+  if current_user.has_role? :renter
+    @repair_request.submitter_id = current_user.id
+  elsif current_user.has_role? :manager
+    @repair_request.responder_id = current_user.id
+  end
 end

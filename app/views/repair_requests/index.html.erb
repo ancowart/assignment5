@@ -1,8 +1,6 @@
 <h1>Listing repair_requests</h1>
-  <% if current_user %>
-  
-    <% if current_user.has_role? :manager %>
-<table border=1>
+  <% if current_user %>  
+<table border= 1>
   <thead>
     <tr>
       <th>Open date</th>
@@ -17,6 +15,7 @@
     </tr>
   </thead>
       <tbody>
+        <% if current_user.has_role? :manager %>
         <% @repair_requests.each do |repair_request| %>
           <tr>
             <td><%= repair_request.open_date %></td>
@@ -31,7 +30,8 @@
           </tr>
         <% end %>
     <% elsif current_user.has_role? :renter %>
-      <% @repair_requests.find([current_user.id]).each do |repair_request| %>
+    
+    <% @repair_requests.where(['submitter_id = ?', current_user.id]).each do |repair_request| %>
         <tr>
           <td><%= repair_request.open_date %></td>
           <td><%= repair_request.close_date %></td>
@@ -44,6 +44,7 @@
           <td><%= link_to 'Destroy', repair_request, method: :delete, data: { confirm: 'Are you sure?' } %></td>
         </tr>
       <% end %>
+      
     <% end %>  
   <% end %>
   </tbody>

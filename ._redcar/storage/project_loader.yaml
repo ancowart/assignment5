@@ -1,3 +1,4 @@
 --- 
-open_files: []
-
+open_files: 
+  - app/views/repair_requests/index.html.erb
+  - app/controllers/repair_requests_controller.rb
