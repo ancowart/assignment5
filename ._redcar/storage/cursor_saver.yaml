@@ -110,4 +110,7 @@ cursor_positions:
   - :path: app/views/repair_requests/index.html.erb
     :cursor_offset: 279
     :timestamp: 2014-03-10 20:42:15.367000 -04:00
+  - :path: app/views/repair_requests/edit.html.erb
+    :cursor_offset: 0
+    :timestamp: 2014-03-10 00:50:08.440000 -04:00
 files_to_retain: 0
