@@ -39,9 +39,6 @@ cursor_positions:
   - :path: app/assets/stylesheets/application.css
     :cursor_offset: 563
     :timestamp: 2014-03-03 20:38:56.970000 -05:00
-  - :path: app/views/users/edit.html.erb
-    :cursor_offset: 40
-    :timestamp: 2014-03-03 21:01:28.528000 -05:00
   - :path: app/views/users/new.html.erb
     :cursor_offset: 36
     :timestamp: 2014-03-03 21:01:41.458000 -05:00
@@ -90,16 +87,27 @@ cursor_positions:
   - :path: app/assets/stylesheets/main.css
     :cursor_offset: 819
     :timestamp: 2014-03-10 19:07:24.813000 -04:00
-  - :path: app/views/users/_form.html.erb
-    :cursor_offset: 517
-    :timestamp: 2014-03-10 19:00:56.659000 -04:00
-  - :path: app/views/layouts/application.html.erb
-    :cursor_offset: 362
-    :timestamp: 2014-03-10 19:06:18.510000 -04:00
   - :path: app/views/shared/_navigation.html.erb
     :cursor_offset: 542
     :timestamp: 2014-03-10 19:19:35.069000 -04:00
+  - :path: app/views/users/edit.html.erb
+    :cursor_offset: 0
+    :timestamp: 2014-03-10 00:50:08.495000 -04:00
   - :path: app/views/users/index.html.erb
-    :cursor_offset: 236
-    :timestamp: 2014-03-10 19:03:21.149000 -04:00
+    :cursor_offset: 268
+    :timestamp: 2014-03-10 20:07:47.868000 -04:00
+  - :path: app/views/users/_form.html.erb
+    :cursor_offset: 788
+    :timestamp: 2014-03-10 19:00:56.659000 -04:00
+  - :path: app/views/layouts/application.html.erb
+    :cursor_offset: 276
+    :timestamp: 2014-03-10 19:06:18.510000 -04:00
+  - :path: app/views/shared/_repair_requests_table.html.erb
+    :cursor_offset: 1
+    :timestamp: 2014-03-10 20:30:48.394000 -04:00
+    :selection_offset: 518
+    :block_selection_mode: false
+  - :path: app/views/repair_requests/index.html.erb
+    :cursor_offset: 279
+    :timestamp: 2014-03-10 20:42:15.367000 -04:00
 files_to_retain: 0
